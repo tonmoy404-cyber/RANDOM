@@ -1,1 +1,1 @@
-# RANDOM
+rm -rf RANDOM
