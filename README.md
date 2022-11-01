@@ -4,4 +4,4 @@ git clone https://github.com/tonmoy404-cyber/RANDOM.git
 
 cd RANDOM 
 
-python 
+python TM-RANDOM.py
