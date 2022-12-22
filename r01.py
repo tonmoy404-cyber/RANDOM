@@ -7,24 +7,15 @@ import uuid
 
 import os
 try:
-    import requests
+	import requests
 except ImportError:
-    print('\n [✓] installing requests !...\n')
-    os.system('pip install requests')
+	os.system("pip install requests")
 
 try:
-    import concurrent.futures
+	import concurrent.futures
 except ImportError:
-    print('\n [✓] installing futures !...\n')
-    os.system('pip install futures')
-
-try:
-    import bs4
-except ImportError:
-    print('\n [✓] installing bs4 !...\n')
-    os.system('pip install bs4')
-
-logo = ("""
+	os.system("pip install futures")
+logo1 = ("""
 d888888b  .d88b.  d8b   db .88b  d88.  .d88b.  db    db      
 `~~88~~' .8P  Y8. 888o  88 88'YbdP`88 .8P  Y8. `8b  d8'      
    88    88    88 88V8o 88 88  88  88 88    88  `8bd8'       
@@ -38,7 +29,7 @@ d888888b  .d88b.  d8b   db .88b  d88.  .d88b.  db    db
  TOOLS NAME : RANDOM-01   
  TOOLS : PAID                                                                
  ══════════════════════════════════════════════════════════
-TONMOY Tool PAID Just You Need Get Approved First
+ \t\tNeed Get Approved First
  ══════════════════════════════════════════════════════════""")
 # BACK
 def back():
@@ -46,7 +37,7 @@ def back():
 
 tonmoy="X-"
 imt="-tkm120"
-ak="tonmoy-"
+ak="xx-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrtonmoy-cov', 'r').read()
@@ -268,8 +259,8 @@ def i():
         user.append(nmp)
     os.system("clear")
     print(logo)
-    jalan("BANGLADESH Password:\33[37;42mBangladesh,bangladesh,i love you,iloveyou,free fire,freefire,fflover")
-    jalan("\033[1;37mPAKISTAN password:\33[37;41mkhankhan,khan1122,khan12345,khan1234khan12,khan786,khan123,khan123456,khankhan123,i love you,i hat you,786786")
+    jalan("\033[1;37mBANGLADESH Password:\033[1;32mBangladesh,bangladesh,i love you,iloveyou,free fire,freefire,fflover")
+    jalan("\033[1;37mPAKISTAN password:\033[1;31mkhankhan,khan1122,khan12345,khan1234khan12,khan786,khan123,khan123456,khankhan123,i love you,i hat you,786786")
     passx = int(input("\033[1;37m[*] Enter Password Limit : "))
     HamiiID = []
     print("")
@@ -374,19 +365,19 @@ Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots) ''
 def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrtonmoy-cov', 'r').read()
 	clear()
-	print(logo)
+	print(logo1)
 	r1=requests.get("https://github.com/tonmoy404-cyber/approval.txt/blob/main/aprov.txt").text
 	if key1 in r1:
 		os.system('clear')
-		print(logo)
-		Main()
+		print(logo1)
+		o()
 	else:
 		os.system("clear")
-		print(logo)
+		print(logo1)
 		print("\t \033[1;32m \033[1;37m ")
 		time.sleep(1)
 		os.system("clear")
-		print(logo)
+		print(logo1)
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -398,8 +389,8 @@ def Subscraption():
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+tonmoy+''+key1
-		os.system('am start https://wa.me/+8801903226586?text=' + tks)
-		Subscraption() 
+		tks = 'Hello%20sir,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+tonmoy+''+key1
+		os.system('am start https://wa.me/+8801766804626?text=' + tks)
+		o() 
 Subscraption() 
  
