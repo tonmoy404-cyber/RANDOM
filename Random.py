@@ -1,1 +1,1 @@
-import Random
+import rendom_enc
